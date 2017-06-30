@@ -1,7 +1,6 @@
 ## Welcome to Iffrit
 
-This is our new website.
-It should work fine.
+This is our new website. We have to make it work.
 
 You can use the [editor on GitHub](https://github.com/fxnicolas/iffrit/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
