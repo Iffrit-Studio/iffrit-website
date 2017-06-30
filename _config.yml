@@ -1,1 +1,4 @@
-theme: jekyll-theme-architect
+theme: minima
+author: The Iffrit Team
+description: Iffrit delivers outstanding machine learning magic.
+keywords: machine learning, data management, artificial intelligence, deep learning
