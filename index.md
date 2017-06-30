@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Iffrit
 
 You can use the [editor on GitHub](https://github.com/fxnicolas/iffrit/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
