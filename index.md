@@ -15,3 +15,5 @@ NOTE: This is just a site prototype for testing.
 ### Support or Contact
 
 Contact hello@iffrit.com for more information about our products.
+
+Rev 3.0
