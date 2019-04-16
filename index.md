@@ -6,7 +6,7 @@ author: Iffrit Team
 
 # Home
 
-## Welcome to Iffrit Design
+## Welcome to Iffrit Design Studio
 
 This is our new website. We have to make it work well.
 
