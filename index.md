@@ -8,6 +8,6 @@ author: Iffrit Team
 
 Iffrit delivers outstanding data expertise and machine learning magic.
 
-## When is it available?
+## When will it be available?
 
 Soon!
