@@ -486,12 +486,12 @@ h6 {
   &:hover {
     color: #fff;
 
-    @include gradient-directional(#663fb5, #663fb5);
+    @include gradient-directional(#c93515, #c93515);
   }
 }
 
 .has-gradient {
-  @include gradient-directional(#663fb5, #2b8be3);
+  @include gradient-directional(#c93515, #2b8be3);
 }
 
 .dropdown-menu-search {
@@ -636,7 +636,7 @@ $custom-min-height: 37.5em; // 600
 .jumbotron {
   padding-top: 7rem;
   margin-bottom: 0;
-  background: #663fb5 url(../img/bg-header.jpg) no-repeat center bottom;
+  background: #c93515 url(../img/bg-header.jpg) no-repeat center bottom;
   background-size: cover;
   border-radius: 0;
 
@@ -1136,7 +1136,7 @@ figure { position: relative; }
 // --------------------------------------------------
 
 .section-testimonials {
-  background: #663fb5 url(../img/bg-testimonials.jpg) no-repeat center bottom;
+  background: #c93515 url(../img/bg-testimonials.jpg) no-repeat center bottom;
   background-size: cover;
 
   .blockquote {

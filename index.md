@@ -4,14 +4,10 @@ title: Welcome to Iffrit
 author: Iffrit Team
 ---
 
-# Home
-
 ## Welcome to Iffrit Design Studio
 
-This is our new website. We have to make it work well.
+Iffrit delivers outstanding data expertise and machine learning magic.
 
 ### Support or Contact
 
 Contact hello@iffrit.com for more information about our products and solutions.
-
-Rev 3.0
