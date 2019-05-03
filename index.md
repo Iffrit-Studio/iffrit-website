@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: Welcome to Iffrit
+title: Iffrit
 author: Iffrit Team
 ---
 
@@ -10,4 +10,4 @@ Iffrit delivers outstanding data expertise and machine learning magic.
 
 ## When will it be available?
 
-Soon!
+Soon !
