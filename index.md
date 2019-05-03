@@ -12,6 +12,6 @@ This is our new website. We have to make it work well.
 
 ### Support or Contact
 
-Contact hello@iffrit.com for more information about our products.
+Contact hello@iffrit.com for more information about our products and solutions.
 
 Rev 3.0
