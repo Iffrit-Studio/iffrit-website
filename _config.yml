@@ -14,11 +14,11 @@ description: Iffrit delivers outstanding data expertise and machine learning mag
 author: 
   name: The Iffrit Team
   email: fx@iffrit.com
-  twitter: # twitter username without the @ symbol
+  twitter: iffrit
 social:
-  name: Frisco Template
+  name: Iffrit
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://www.iffrit.com
 
 # -----
 # Build
@@ -102,7 +102,7 @@ defaults:
         resize_style: cover
 
 # -----------
-# CloudCannon
+# Template Content
 
 social_icons:
   - Facebook
