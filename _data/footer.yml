@@ -15,9 +15,9 @@ right_links:
     social_icon: Twitter
     new_window: true
   - name:
-      link: https://linkedin.com/iffrit
-      social_icon: LinkedIn
-      new_window: true
+    link: https://linkedin.com/iffrit
+    social_icon: LinkedIn
+    new_window: true
   # - name:
   #   link: https://youtube.com/c/iffrit
   #   social_icon: YouTube
