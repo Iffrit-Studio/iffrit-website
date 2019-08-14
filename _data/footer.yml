@@ -6,18 +6,18 @@ left_links:
   - name: Contact
     link: /contact/
 right_links:
-  - name:
-    link: https://facebook.com/iffrit
-    new_window: true
-    social_icon: Facebook
-  - name:
-    link: https://twitter.com/iffrit
-    social_icon: Twitter
-    new_window: true
-  - name:
-    link: https://linkedin.com/iffrit
-    social_icon: LinkedIn
-    new_window: true
+  # - name:
+  #   link: https://facebook.com/iffrit
+  #   new_window: true
+  #   social_icon: Facebook
+  # - name:
+  #   link: https://twitter.com/iffrit
+  #   social_icon: Twitter
+  #   new_window: true
+  # - name:
+  #   link: https://linkedin.com/iffrit
+  #   social_icon: LinkedIn
+  #   new_window: true
   # - name:
   #   link: https://youtube.com/c/iffrit
   #   social_icon: YouTube

@@ -1,7 +1,7 @@
 ---
-name: The Iffrit
-position: CEO
+name: FX
+position: Lead
 image_path: https://source.unsplash.com/AhUqPgcEMhA/600x600?a=.png
-# twitter_username: iffrit
-blurb: The iffrit loves hiking, diving and pasta.
+twitter_username: fxnicolas
+blurb: Fx loves hiking, diving and pasta.
 ---
