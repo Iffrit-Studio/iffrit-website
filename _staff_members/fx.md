@@ -1,7 +1,7 @@
 ---
 name: FX
-position: Lead
-image_path: https://source.unsplash.com/AhUqPgcEMhA/600x600?a=.png
-twitter_username: fxnicolas
-blurb: Fx loves hiking, diving and pasta.
+position: Studio Lead
+image_path: ../images/fx.png
+github_username: fxnicolas
+blurb: Fx loves hiking, Aikido and travellng.
 ---

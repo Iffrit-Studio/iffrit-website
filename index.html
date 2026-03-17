@@ -1,53 +1,43 @@
 ---
 title: Home
-description: Iffrit delivers outstanding data expertise and machine learning magic for your creative process.
-image: https://source.unsplash.com/2aCuwSh4RRk/2000x1322?a=.png
+description: Iffrit Studio is a playground for unleashing creativity
+image: ../images/fire.jpg
 bottom_image: https://source.unsplash.com/2MNFnPdsGyg/2000x1322?a=.png
+image_credits: Picture by <a href="https://unsplash.com/fr/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Chuttersnap</a> (Unsplash)'
+
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable">Welcome to Iffrit !</h1>
-			<p class="subtext editable">We help you in your creative process.</p>
-			<div class="cta button alt"><a href="/contact/">Contact Us</a></div>
+			<p class="subtext editable">Iffrit Studio is a playground for unleashing creativity across TTRPG worlds,
+				software experiments, adventure design, and whatever sparks joy next. From weaving intricate tabletop
+				scenarios to coding quirky tools and dreaming up digital tales, this is where ideas collide into fun, tangible projects. Dive in for a mix of
+				fantasy lore, maker hacks, and personal passions that defy the ordinary.</p>
+			<div class="cta button alt"><a href="/contact/">Contact Me</a></div>
 		</div>
 	</div>
-	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
+	<div class="hero-image-credits">
+		<p class="image-credits">
+			{{ page.image_credits }}
+		</p>
+	</div>
+	<div class="learn-more"><a href="#learn-more">More<span class="arrow">&#x25BC;</span></a></div>
 </section>
-
-<div class="content">
-	<section class="info" id="learn-more">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Your Projects</h2>
-				<p class="editable">Making projects is hard. Iffrit is the perfect partner to help you reach success for any creative project.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="https://source.unsplash.com/random/650x300" alt="Screenshot" />
-			</div>
+<section id="learn-more" class="pad">
+	<div class="text-container">
+		<div class="text">
+			<h2 class="editable">Projects</h2>
+			<p class="editable">We turn ideas into finished projects — every time.</p>
 		</div>
-	</section>
+		<ul class="projects">
+			{% include list-projects.html projects=paginator.projects %}
+		</ul>
 
-	<section class="info">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Contact us</h2>
-				<p class="editable">The more you tell us the better we gets to know you.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="https://source.unsplash.com/random/650x300" alt="Screenshot" />
-			</div>
-		</div>
-	</section>
+		{% if paginator.total_pages > 1 %}
+			<div class="cta button wide"><a href="/contact/">All Projects</a></div>
+		{% endif %}
+	</div>
 
-	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
-		<div class="inner-hero text-container">
-			<div class="hero-text-container">
-				<h2 class="editable">Contact us today</h2>
-				<p class="subtext editable">It's free, fun and an exciting way to meet new people.</p>
-				<div class="cta button alt"><a href="/contact/">Contact us</a></div>
-			</div>
-		</div>
-	</section>
-</div>
+</section>

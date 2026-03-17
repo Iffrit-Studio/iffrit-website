@@ -1,4 +1,5 @@
-.container, .text-container {
+.container,
+.text-container {
 	margin: 0 auto;
 	position: relative;
 	padding: 0 20px;
@@ -37,17 +38,18 @@ header {
 	}
 
 	&.header-background {
-		background-color: rgba(255,255,255,.95);
+		background-color: rgba(255, 255, 255, .95);
 		color: #333;
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 		transition: background-color 0.2s ease;
 		text-shadow: none;
 
 		a {
 			color: #333;
+
 			@media #{$mid-point} {
 				&:hover {
-					border-bottom-color: rgba(80, 80, 80,.3);
+					border-bottom-color: rgba(80, 80, 80, .3);
 					border-bottom-width: 5px;
 				}
 			}
@@ -67,9 +69,11 @@ header {
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
+
 		@media #{$mid-point} {
 			height: 100%;
 		}
+
 		display: block;
 
 		span {
@@ -98,7 +102,7 @@ header {
 }
 
 .info img {
-		max-height: 650px;
+	max-height: 650px;
 }
 
 .info {
@@ -125,7 +129,7 @@ header {
 blockquote {
 	padding: 18px 25px;
 	margin: 0;
-	quotes: "\201C""\201D""\2018""\2019";
+	quotes: "\201C" "\201D" "\2018" "\2019";
 	font-style: italic;
 
 	cite {
@@ -152,8 +156,8 @@ blockquote:before {
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background-size:cover;
- 	background-repeat:no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
@@ -183,15 +187,38 @@ blockquote:before {
 			opacity: 1;
 		}
 	}
+
 	.arrow {
 		font-size: .6em;
 	}
 }
 
+p.image-credits {
+	color:#FFFFFF99;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	margin-right:30px;
+	text-align: right;
+	font-size: 0.7em;
+	width: 100%;
+
+	a {
+			text-decoration: none;
+			color: #fff;
+			opacity: .9;
+	
+			&:hover {
+				opacity: 1;
+			}
+		}
+}
+
 .editor-link {
- 	display: none;
+	display: none;
 	margin-top: 0;
 	padding-top: 30px;
+
 	.btn {
 		border: 0;
 		border-radius: 2px;

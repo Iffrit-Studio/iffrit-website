@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Iffrit delivers outstanding expertise and magic for your creative process.
+description: Iffrit Studio is a playground for unleashing creativity.
 author: 
   name: The Iffrit Team
   email: hello@iffrit.com
@@ -39,14 +39,18 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - .well-known/
 
 collections:
   staff_members:
     _hide_content: true
     _icon: account_circle
+  projects:
+    output: true
+    _icon: account_circle
 
 paginate: 11
-paginate_path: "/blog/:num/"
+paginate_path: "/projects/:num/"
 
 jekyll-archives:
   enabled: ['news']
@@ -69,19 +73,20 @@ defaults:
       layout: "default"
   -
     scope:
-      type: "posts"
+      path: ""
+      type: "projects"
     values:
-      layout: "post"
+      layout: "project"
       _options:
         image:
           width: 2000
           height: 1322
           resize_style: cover
-          uploads_dir: "/images/post_uploads"
+          uploads_dir: "/images/projects"
         content:
           width: 1500
           height: 2000
-          uploads_dir: "/images/post_uploads"
+          uploads_dir: "/images/projects"
   -
     scope:
       path: "contact-success.html"

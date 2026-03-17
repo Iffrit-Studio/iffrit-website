@@ -1,0 +1,49 @@
+---
+title: Projects
+description: Keep up with the latest news about our projects.
+image: /images/lava.jpg
+image_credits: Picture by <a href="https://unsplash.com/fr/@solenfeyissa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Solen Feyissa</a> (Unsplash)
+learn_more: Read
+
+---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Projects</h1>
+			<p class="subtext editable">Hear the latest news about our projects.</p>
+		</div>
+	</div>
+	{% if page.image_credits %}
+		<div class="hero-image-credits">
+			<p class="image-credits">
+				{{ page.image_credits }}
+			</p>
+		</div>
+	{% endif %}
+	{% if page.learn_more %}
+	<div class="learn-more"><a href="#learn-more">{{ page.learn_more }}<span class="arrow">&#x25BC;</span></a></div>
+	{% endif %}
+</section>
+
+<section id="learn-more">
+	<div class="text-container">
+		<ul class="projects">
+			{% include list-projects.html projects=paginator.projects %}
+		</ul>
+
+		{% if paginator.total_pages > 1 %}
+		<div class="pagination">
+			{% if paginator.previous_page %}
+			<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer</a>
+			{% endif %}
+
+			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+			{% if paginator.next_page %}
+			<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older &rarr;</a>
+			{% endif %}
+		</div>
+		{% endif %}
+	</div>
+</section>

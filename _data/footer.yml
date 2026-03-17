@@ -1,6 +1,6 @@
 left_links:
-  - name: Blog
-    link: /blog/
+  - name: Projects
+    link: /projects/
   - name: About
     link: /about/
   - name: Contact
@@ -26,6 +26,6 @@ right_links:
   #   link: https://instagram.com/iffrit
   #   social_icon: Instagram
   #   new_window: true
-  - name:
-    link: /feed.xml
-    social_icon: RSS
+  # - name:
+  #   link: /feed.xml
+  #   social_icon: RSS

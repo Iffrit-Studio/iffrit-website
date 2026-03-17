@@ -1,16 +1,25 @@
 ---
 title: About
 description: Iffrit Studio delivers outstanding data expertise and machine learning magic.
-image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
+image: ../images/brasero.jpg
+image_credits: Picture by <a href="https://unsplash.com/fr/@profwicks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Ben Wicks</a> (Unsplash)
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Our Story</h1>
-			<p class="subtext editable">Iffrit Studio delivers outstanding data expertise and machine learning magic.</p>
-			<p class="subtext editable">We have a talented team whose sole goal is to bring you closer to the people around you.</p>
+			<h1 class="editable">The Story</h1>
+			<p class="subtext editable">I created Iffrit Studio — and this site—to give my creative impulses a dedicated home beyond the constraints of day-to-day
+			work. In a world of structured projects and deadlines, I craved a space to freely explore Gaming and RPG worlds, tinker with
+			unconventional software ideas, and chase spontaneous design sparks without apology or expectation. This digital workshop
+			captures those raw moments of inspiration and long sessions of work, turning fleeting thoughts into shareable artifacts that anyone curious about
+			fantasy worlds, clever hacks, or joyful experimentation can discover and enjoy.</p>
 		</div>
+	</div>
+	<div class="hero-image-credits">
+		<p class="image-credits">
+			{{ page.image_credits }}
+		</p>
 	</div>
 </section>
 
@@ -20,7 +29,13 @@ image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 			{% for person in site.staff_members %}
 				<li>
 					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
+					<div class="name">
+						{% if person.github_username %}
+						<a target="_blank" href="https://github.com/{{ person.github_username }}">{{ person.name }}</a>
+						{% else %}
+						{{ person.name }}
+						{% endif %}
+					</div>
 					<div class="position">{{ person.position }}</div>
 				</li>
 			{% endfor %}

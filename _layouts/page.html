@@ -9,6 +9,16 @@ layout: default
 			<p class="subtext">{{ page.description }}</p>
 		</div>
 	</div>
+	{% if page.image_credits %}
+	<div class="hero-image-credits">
+		<p class="image-credits">
+			{{ page.image_credits }}
+		</p>
+	</div>
+	{% endif %}
+	{% if page.learn_more %}
+	<div class="learn-more"><a href="#learn-more">{{ page.learn_more }}<span class="arrow">&#x25BC;</span></a></div>
+	{% endif %}
 </section>
 
 {{ content }}

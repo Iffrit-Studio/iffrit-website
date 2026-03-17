@@ -1,0 +1,8 @@
+<p class="project-details">
+	{% for category in include.project.categories %}
+		<span class="project-filter">
+			{{ category }}
+		</span>
+	{% endfor %}
+	<span class="project-date">{{ include.project.date | date: "%B %d, %Y" }}</span>
+</p>

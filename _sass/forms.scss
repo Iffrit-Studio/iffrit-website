@@ -8,6 +8,13 @@
 	background: #fff;
 }
 
+.button.wide {
+	text-align: center;
+	a {
+		width: 50%;
+	}
+}
+
 .button a:hover, input[type=submit]:hover {
 	background: $brand-color;
 	color: #fff;
@@ -62,6 +69,6 @@ input, textarea {
 }
 
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus {
-	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	border: 1px solid rgba(81, 203, 238, 1);
+	box-shadow: 0 0 5px rgba(214, 39, 39, 0.905);
+	border: 1px solid rgb(138, 25, 19);
 }

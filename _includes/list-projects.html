@@ -1,0 +1,11 @@
+<!-- Project List -->
+{% for project in site.projects %}
+	<li class="project">
+		<h2><a href="{% include relative-src.html src=project.url %}">{{ project.title }}</a></h2>
+		{% include project-title.html project=project %}
+		<div class="project-content">
+			{{ project.excerpt }}
+			<div class="button"><a href="{% include relative-src.html src=project.url %}">Read More</a></div>
+		</div>
+	</li>
+{% endfor %}
