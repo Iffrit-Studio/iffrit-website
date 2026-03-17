@@ -5,6 +5,7 @@
 	@extend %flexbox;
 	@include flex-flow(wrap);
 	text-align: center;
+
 	li {
 		padding: 30px 20px;
 		box-sizing: border-box;
@@ -26,6 +27,6 @@
 
 	.position {
 		color: #666;
-		font-size: .8em;
+		font-size: clamp(0.65rem, 1.5vw, .8em);
 	}
 }
