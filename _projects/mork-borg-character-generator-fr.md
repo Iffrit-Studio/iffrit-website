@@ -1,8 +1,8 @@
 ---
 layout: project
-title: MÖRK BORG - Générateur de Personnage
+title: MÖRK BORG - Character Generator
 date: 2025-11-11
-description: Un générateur "single-click" de personnages pour le Jeu de Rôle MÖRK BORG en français.
+description: Single-click character generator for the Mörk Borg TTRPG.
 author_staff_member: fx
 categories:
   - News
@@ -22,18 +22,22 @@ image-credits: Picture by <a href="https://unsplash.com/fr/@galxrax?utm_source=u
     border-radius: 20px;
 }
 </style>
-Un générateur "single-click" de personnages pour le Jeu de Rôle <a target="_blank" rel="nofollow" href="https://morkborg.com/">MÖRK BORG</a> en français. Ce générateur tourne dans un navigateur en pur HTML, CSS et Javascript.
+A character generator for the <a href="https://morkborg.com/" target="_blank">MÖRK BORG</a> tabletop RPG in English, French and Portuguese (Brazil).
+This generator runs in a browser in pure HTML, CSS and Javascript.
 
-![MÖRK BORG - Générateur de Personnage](https://github.com/fxnicolas/mork-borg-character-generator/raw/main/mork-borg-character-generator-screenshot.png)
-*Générateur de Personnage Mörk Borg*{: style="text-align: center; font-size: 0.85em; display: block;"}
+![MÖRK BORG - Character Generator](https://github.com/fxnicolas/mork-borg-character-generator/raw/main/mork-borg-character-generator-screenshot.png)
+*Mörk Borg Character Generator*{: style="text-align: center; font-size: 0.85em; display: block;"}
 
-## Utilisation
+## Usage
 
-* <a href="https://iffrit.itch.io/mork-borg-genrateur-de-personnages" target="_blank">Téléchargez</a> et décompressez le générateur, puis lancez le fichier HTML. Vous pouvez aussi lancer le <a target="_blank" rel="nofollow" href="https://fxnicolas.github.io/mork-borg-character-generator/mork-borg-character-generator.html">générateur</a> en ligne.
-* Sélectionnez une Classe de personnage, puis cliquez sur **Générer**. Vous pouvez également choisir une classe aléatoire ou aucune classe (Racaille), en sélectionnant deux attributs d'excellence (tirés sur les 3 meilleurs de 4d6 au lieu de 3d6).
-* Le **Mode Édition** permet de modifier le contenu de la fiche (cliquez sur un élément pour l'éditer) et sauvegarder vos personnages localement.
-* Vous pouvez **directement imprimer la fiche en PDF** ou sur papier (A4, orientation Paysage/Landscape).  
-Notez que l'en-tête et le pied de page seront automatiquement masqués à l'impression
+* <a href="https://iffrit.itch.io/mork-borg-genrateur-de-personnages" target="_blank">Download</a> and unzip the generator then open the HTML file. You can also launch the <a href="https://fxnicolas.github.io/mork-borg-character-generator/mork-borg-character-generator.html" target="_blank">online generator</a>.
+* Select a character **Class**, then click **Generate**. You can also choose a random class or no class (Scum), by selecting two excellence attributes (rolled on the 3 best of 4d6 instead of 3d6).
+* The **Edit Mode** allows you to modify the content of the sheet (click on an element to edit it) and save your characters locally.
+* You can directly **print the sheet to PDF** or on paper (A4, Landscape orientation). <br>*Note that the header and footer will automatically be hidden when printing*.
+
+## Credits
+
+The Portuguese (Brazil) translation is provided by <a href="https://github.com/SoJaum" target="blank">Jaum</a>.
 
 ## Notice
 
